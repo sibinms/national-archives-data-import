@@ -44,12 +44,14 @@
   ```
   - Once you successfully imported the data go to : http://0.0.0.0:8000/archive-records/
   - You will be able to see the following page
+<img width="447" alt="Screenshot 2022-10-18 at 7 51 05 PM" src="https://user-images.githubusercontent.com/32489487/196457202-6efa9080-92e6-4feb-adf9-f25450f966c9.png">
+  
 
 - **How to run tests ?**
   - Open a new terminal in the same folder and execute the following commands
   ```
   docker-compose exec web sh
-  python manage.py test -v 2 ( to see detailed output )
+  python manage.py test -v 2  // to see detailed output
   ```
 
 - DB Design 

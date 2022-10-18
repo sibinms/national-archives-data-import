@@ -44,6 +44,6 @@
   ```
   - Once you successfully imported the data go to : http://0.0.0.0:8000/archive-records/
   - You will be able to see the following page
-<img width="1440" alt="Screenshot 2022-10-18 at 7 49 04 PM" src="https://user-images.githubusercontent.com/32489487/196456831-e9f91104-a80e-4a4b-b8f0-6713afef1db7.png">
+<img width="447" alt="Screenshot 2022-10-18 at 7 51 05 PM" src="https://user-images.githubusercontent.com/32489487/196457202-6efa9080-92e6-4feb-adf9-f25450f966c9.png">
 
   

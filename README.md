@@ -56,8 +56,3 @@
 
 - DB Design 
   - Model : ArchiveRecord
-| Field name  | Type of field |
-| ------------- | ------------- |
-| notes  | TextField |
-| created_by | ForeignKey |
-| expiry | DateField  |

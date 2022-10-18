@@ -44,4 +44,14 @@
   ```
   - Once you successfully imported the data go to : http://0.0.0.0:8000/archive-records/
   - You will be able to see the following page
-  
+
+- **How to run tests ?**
+  - Open a new terminal in the same folder and execute the following commands
+  ```
+  docker-compose exec web sh
+  python manage.py test -v 2 ( to see detailed output )
+  ```
+
+- DB Design 
+  - Model : ArchiveRecord
+    - 

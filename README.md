@@ -54,5 +54,24 @@
   python manage.py test -v 2  // to see detailed output
   ```
 
-- DB Design 
+- **DB Design** 
   - Model : ArchiveRecord
+  - Fields : 
+  ```
+  reference_id : CharField ( In the API its mentioned as string )
+  ```
+  ```
+  title : CharField ( In the API its mentioned as string )
+  ```
+  ```
+  description : TextField (API response have HTML entities better to use a text field)
+  ```
+  ```
+  citable_reference : CharField ( In the API its mentioned as string )
+  ```
+  - reference_id is unique in the Model
+
+- **Ideal solution**
+  - The ideal solution should be a celery task which is getting invoked from the View
+  - This celery task will run in background and fetch the data from the API and will store the data in the DB
+  - Client will be polling the API end point to get the output from the celery task
